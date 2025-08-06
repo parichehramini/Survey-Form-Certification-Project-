@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    </head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description" >description</p>
+  <form id="survey-form">
+
+<label id="name-label" for="name">
+  your name</label>
+  <input id="name" type="text" placeholder="Enter your name" required>
+
+  <label id="email-label" for="email">
+    your email</label>
+    <input id="email" type="email" placeholder="Enter your emal" required>
+
+    <label id="number-label" for="number">
+      your password</label>
+
+<input id="number" type="number" min="1" max="10" placeholder="Enter your password">
+
+ <label for="dropdown">Select an option:</label>
+
+<select id="dropdown" name="dropdown">
+
+  <option value="">Select an option
+  </option>
+
+  <option value="option1">Option 1
+  </option>
+ <option value="option2">Option 2</option>
+</select>
+
+
+<p>Gender</p>
+
+<label>
+  <input type="radio" name="gender" value="male">Male
+</label>
+
+<label>
+  <input type="radio" name="gender" value="femail">Female
+</label>
+
+
+<p>Select your interest </p>
+
+<label>
+  <input type="checkbox" value="interest" value="Music">Music
+</label>
+
+<label>
+  <input type="checkbox" value="interest" value="coding" >Coding
+</label>
+
+
+<label for="comments">Any comments?</label>
+
+<textarea id="comments" name="comments" rows="4" cols="55" placeholder="Write your comments here..."></textarea>
+
+<input id="submit" type="submit">
+
+  </form>
+
+
+
+
+    
